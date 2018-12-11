@@ -2,6 +2,10 @@
 
 #### 项目介绍
 个人整理的Centos7.x + Kubernetes-1.12.3 + Dashboard-1.8.3 无 CVE-2018-1002105 漏洞的master节点全自动快速一键安装部署文件，适用于测试环境，生产环境的快速安装部署
+
+#### 参考文档
+https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/
+
 #### 准备工作
 1. 配置好centos的网络环境，使其可连接互联网，用于下载安装文件
 2. 用root用户登录centos7,复制本工程中的所有*.sh,*.ymal文件到/root/目录下
