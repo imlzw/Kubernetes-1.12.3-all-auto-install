@@ -78,7 +78,7 @@ sed -i "s/join_token/your_join_token/g" /root/*.sh
 
 ## node节点加入教程
 
-1. 执行node-kubeadm-join.sh,安装kubernetes-dashboard-1.8.3管理UI
+1. 执行node-kubeadm-join.sh,加入新节点
 
 ```
 sh /root/node-kubeadm-join.sh
