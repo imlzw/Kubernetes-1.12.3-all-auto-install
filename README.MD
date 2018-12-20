@@ -33,7 +33,7 @@ sh /root/node-kubeadm-init.sh
 2. 执行node-kubeadm-init.sh,安装kubernetes-dashboard-1.8.3管理UI
 
 ```
-sh /root/node-kubeadm-install.sh
+sh /root/node-kubeadm-init.sh
 ```
 3. 全部完成后，打开浏览器：访问 ：https://your_centos_ip:30001，使用token登录，token查看方法如下：
 
@@ -81,7 +81,7 @@ sed -i "s/join_token/your_join_token/g" /root/*.sh
 1. 执行node-kubeadm-join.sh,安装kubernetes-dashboard-1.8.3管理UI
 
 ```
-sh /root/node-kubeadm-install.sh
+sh /root/node-kubeadm-join.sh
 ```
 3. 全部完成后，打开浏览器：访问 ：https://your_master_centos_ip:30001，查看节点准备情况。节点准备需要一点时间。
 
