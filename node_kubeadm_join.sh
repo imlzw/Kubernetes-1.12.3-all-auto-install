@@ -80,7 +80,7 @@ echo "1" > /proc/sys/net/ipv4/ip_forward
 
 
 # 下载k8s.1.12.3所需要的镜像列表
-docker pull registry.cn-hangzhou.aliyuncs.com/google_containers/kube-proxy-amd64:v1.12.3
+echo 'docker pull registry.cn-hangzhou.aliyuncs.com/google_containers/kube-proxy-amd64:v1.12.3
 docker pull registry.cn-hangzhou.aliyuncs.com/google_containers/pause:3.1
 
 docker tag registry.cn-hangzhou.aliyuncs.com/google_containers/pause:3.1 k8s.gcr.io/pause:3.1
