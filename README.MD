@@ -30,10 +30,10 @@ sed -i "s/192.168.119.212/your_master_centos_ip/g" /root/*.sh
 sh /root/node-kubeadm-init.sh
 ```
 
-2. 执行node-kubeadm-init.sh,安装kubernetes-dashboard-1.8.3管理UI
+2. 执行node-kubeadm-install.sh,安装kubernetes-dashboard-1.8.3管理UI
 
 ```
-sh /root/node-kubeadm-init.sh
+sh /root/node-kubeadm-install.sh
 ```
 3. 全部完成后，打开浏览器：访问 ：https://your_centos_ip:30001，使用token登录，token查看方法如下：
 
